@@ -1,0 +1,27 @@
+
+.calender{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    gap: 5px;
+
+}
+.deat_name{
+    border: 1px solid salmon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    background-color: #f0f8ff;
+    font-size: 25px;
+}
+.deta{
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    background-color: aqua;
+    align-items: center;
+    font-size: 20px;
+}
+.other-month{
+    background-color: #cfd7de;
+}
